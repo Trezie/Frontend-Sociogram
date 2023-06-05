@@ -1,0 +1,124 @@
+.bodymenu{
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    background: #FBF8FF;
+    
+}
+.portfolio-mainbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 30px;
+
+    
+
+}
+.section-one{
+    display: flex;
+
+    width: 100%;
+ 
+ 
+}
+.section-one-right{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+   
+}
+/*SECTION TWO */
+.section-two{
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.portfolio-left{
+    width: 70%;
+    background: #FDFBFF;
+    height: 100%;
+    border: 0.5px solid #C6C6C6;
+    border-radius: 8px;
+}
+.portfolio-right{
+    height: 100%;
+
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.total-portfolio{
+    height: 38%;
+    background: #6821C3;
+    border: 0.5px solid #C6C6C6;
+    border-radius: 8px;   
+    text-align: center;
+    color: #F9F4FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-block:  10%;
+}
+.total-portfolio > small{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+
+}
+.assets{
+    height: 55%;
+    background: #FDFBFF;
+    /* Subtle stroke */
+    text-align: start;
+    border: 0.5px solid #C6C6C6;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 12px; 
+    padding: 10px;
+}
+.assets > small{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*SECTION THREE*/
+.section-three{
+    display: flex;
+    justify-content: space-between;
+    height: 12%;
+}
+.token-div{
+    width: 30%;
+    height: 100%;
+    background: #FDFBFF;
+    /* Subtle stroke */
+    border: 0.5px solid #C6C6C6;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.available-token{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.available-token > h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5%;
+}
+.available-token > small{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}

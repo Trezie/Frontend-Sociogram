@@ -22,21 +22,14 @@ body {
   background-color :#D9D9D9;
   box-sizing: border-box;
   height: 100vh;
-  
   position: static;
+  
 }
-.sidebar{
-  width: 25%;
-  height: 100vh;
 
-}
 .mainbar{
+  display: flex;
   padding-inline: 20px;
   position: static;
-  right: 75%;
- display: flex;
- justify-content: space-around;
-
 
 }
 
@@ -46,11 +39,9 @@ body {
   overflow: hidden;
   height: 100vh;
   margin: 10px;
-
 }
 
 .mainbar2{
-
   width: 40%;
   overflow-y: auto;
   height: 100vh;

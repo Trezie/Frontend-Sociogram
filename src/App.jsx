@@ -6,6 +6,7 @@ import LandingPageLayout from './layouts/LandingPageLayout'
 import Home from './routes/Home'
 import DashboardHome from './routes/DashboardHome'
 import './style/Home.css'
+import Portfolio from './routes/Portfolio'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: '/portfolio',
+    element: <Portfolio />,
+  },
+  
 ])
 
 export const App = () => <RouterProvider router={router} />
