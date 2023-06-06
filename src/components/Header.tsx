@@ -2,7 +2,7 @@ import React from 'react'
 import { FiSearch } from 'react-icons/fi';
 import { FiChevronDown } from 'react-icons/fi';
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
-import './Header.css'
+import '../style/Header.css'
 
 
 const Header = () => {

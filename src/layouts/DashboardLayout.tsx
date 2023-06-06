@@ -1,14 +1,19 @@
 import React from 'react'
 import { Outlet } from 'react-router'
-import Sidebar from '../components/Sidebar/Sidebar'
-import Header from '../components/Header/Header'
+import Sidebar from '../components/Sidebar'
+import Header from '../components/Header'
+import '../style/Header.css'
 
 const DashboardLayout = () => {
   return (
-    <div>
+    <div className='dash-layout'>
       <Header />
-      <Sidebar />
-      <Outlet />
+      {/* <Header /> */}
+      <section className='d-flex mt-lg-2'>
+        <Sidebar />
+        <Outlet />
+      </section>
+      {/* <Sidebar /> */}
     </div>
   )
 }

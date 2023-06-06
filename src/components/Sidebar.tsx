@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Sidebar.css"
+import "../style/Sidebar.css"
 import { TbGridDots } from "react-icons/tb";
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
 

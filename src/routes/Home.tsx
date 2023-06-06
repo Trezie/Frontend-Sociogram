@@ -1,14 +1,13 @@
 import React from 'react'
 import "../style/Home.css"
-import '../components/Sidebar/Sidebar.css'
+import '../style/Sidebar.css'
 import { TbGridDots } from "react-icons/tb";
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
-import './Mainbar.css'
 import Card from '../components/Card';
 import data from '../components/data';
 import Token from '../components/Token';
 import Topmarket from '../components/Topmarket';
-import Sidebar from '../components/Sidebar/Sidebar';
+
 import tokendata from '../components/tokendata';
 import market from '../components/market';
 
@@ -71,7 +70,6 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <Sidebar />
       <div className='mainbar'>
         <div className='mainbar1'>
           {cards}

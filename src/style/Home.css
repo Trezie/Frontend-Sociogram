@@ -30,6 +30,7 @@ body {
   display: flex;
   padding-inline: 20px;
   position: static;
+  margin-top: 1%;
 
 }
 
@@ -91,7 +92,7 @@ body {
 
 /* market session */
 .mainbar-market{
-  margin-top: 20px;
+  margin-top: 10%;
   background-color: white;
   width: 90%;
 
